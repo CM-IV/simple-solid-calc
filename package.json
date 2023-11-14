@@ -1,0 +1,22 @@
+{
+  "name": "davids-calc",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "test": "vitest run",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.3.1",
+    "@astrojs/solid-js": "^3.0.2",
+    "astro": "^3.5.3",
+    "solid-js": "^1.8.5",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.6"
+  }
+}
